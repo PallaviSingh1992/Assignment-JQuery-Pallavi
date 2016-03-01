@@ -1,0 +1,105 @@
+
+                .button {
+
+                background: grey;
+
+                color: black;
+
+                border: 3px solid #eee;
+
+                border-radius: 2px;
+
+                box-shadow: 5px 5px 5px #000099;
+
+                font-size: 15px;
+
+                padding: 10px;
+
+
+                }
+
+                .button:hover {
+
+                background: #016ABC;
+
+                color: #fff;
+
+                border: 1px solid #eee;
+
+                border-radius: 5px;
+
+                box-shadow: 5px 5px 5px #eee;
+
+                }
+                .input 
+                { 
+                    padding:13px;
+                    font-size:10px; 
+                    text-align:center;
+                    border-width:2px;
+                    border-radius:5px;
+                    background-color:#ffffff; 
+                    border-color:grey; 
+                    box-shadow: 4px 5px 7px 0px rgba(64,64,64,.53); 
+                    font-size: 25px;
+
+                    
+                } 
+         .input:focus { outline:none; } 
+
+         .center {
+                    margin: auto;
+                    width: 60%;
+                    border: 3px solid grey;
+                    padding: 40px;
+                    background-color: black;
+                    border-radius: 5px;
+                    text-align: center;
+                    font-size: 20px;
+                }
+            .label{
+                font-size: 25px;
+                font-weight: 5px;
+
+
+            }
+            .content{
+                margin: auto;
+                width:40%;
+                padding: 40px;
+                background-color: #B9DFFF;
+                text-align: center;
+                font-size: 10px;
+                position: relative;
+                border-radius: 5px;
+                animation-name:anim;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+            }
+            .table{
+                text-align: center;
+                transition: all;
+                border-radius: 5px;
+                border-color: #016ABC;
+                position: relative;
+
+            } 
+            .label{
+                color: #000066;
+                text-align: center;
+                font-style: "Lucida Console";
+                text-decoration: blink;
+                font-stretch: 20%;
+                font-size: 50px;
+                animation-name:anim;
+                animation-duration: 4s;
+                border-radius: 5px;
+                animation-iteration-count: infinite;
+                padding: 20px;
+
+            }   
+           
+            @keyframes anim{
+                           from {background-color:#669999;}
+                             to {background-color: #66ffc2;}
+                    }
